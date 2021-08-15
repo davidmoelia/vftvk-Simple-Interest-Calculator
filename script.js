@@ -26,4 +26,3 @@ function checkData(){
     } compute();
     return true;
 }
-        
