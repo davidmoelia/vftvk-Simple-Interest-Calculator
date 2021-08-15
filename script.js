@@ -16,7 +16,7 @@ function updateRate(){
 function checkData(){
     var p = document.getElementById("principal");
     if (p.value == ""){
-        alert("Please enter the amount");
+        alert("Enter a positive number");
         p.focus();
         return false;
     } if (p.value <= 0){
